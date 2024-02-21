@@ -1923,6 +1923,14 @@
         }
 
         /**
+         * Returns de values to be bound to the query
+         */
+        protected function _get_values()
+        {
+            return $this->_values;
+        }
+
+        /**
          * Reset the Idiorm instance state
          */
         private function _reset_idiorm_state() {
